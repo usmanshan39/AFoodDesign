@@ -1,0 +1,748 @@
+.shepparton-profile {
+    margin-top: 30px;
+}
+
+/************************************* top four icons start here *************************************/
+.shepparton-profile .icon-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .top-four-icons .active {
+    background-color: var(--light-fill);
+}
+
+/************************************* top four icons end here *************************************/
+
+
+/************************************* Supplier text after icons start here *************************************/
+.shepparton-profile .supplier-text-sec {
+    margin-top: 34px;
+}
+
+.shepparton-profile .supplier-text-sec .supplier-img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .supplier-text-sec .supplier-heading h1 {
+    padding-left: 22px;
+}
+
+
+/************************************* Supplier text after icons end here *************************************/
+
+
+/************************************* above stylings is copyed from Shepparton Profile*************************************/
+
+
+
+
+/************************************* Shepparton POsts stylings start here*************************************/
+
+
+
+/************************************* Shepparton Posts section start here*************************************/
+.shepparton-posts .shepparton-posts-container {
+    margin-top: 40px;
+}
+
+.shepparton-posts .shepparton-posts-container .post-title-img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-posts .shepparton-posts-container .post-title-text {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.shepparton-posts .shepparton-posts-container .post-title-text p,
+h2 {
+    margin: 0;
+}
+
+.shepparton-posts .shepparton-posts-container .post-shop-now-btn {
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-right: 35px;
+}
+
+.shepparton-posts-container .shepparton-posts-body {
+    padding: 25px
+}
+
+.shepparton-posts-container .shepparton-posts-body p {
+    line-height: 30px;
+}
+
+.shepparton-posts-container .shepparton-posts-body a {
+    color: #000;
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+    box-shadow: none;
+    padding: 0px;
+    margin: 0px 5px;
+}
+
+.shepparton-posts-container .posts-footer-images {
+    padding: 5px 25px
+}
+
+.shepparton-posts-container .posts-footer-images .image {
+    margin: 0px 20px 0px 0px;
+}
+
+/************************************* Shepparton Posts section end here*************************************/
+
+
+/************************************* extra styling for Clarence Valley Food_Posts – 1 start here********************************/
+
+.shepparton-posts .new-post-btn {
+    margin-left: 35px;
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/************************************* shop now modal box Clarence Valley Food_Posts – 1 end here********************************/
+.shop-now-modal .modal-content {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.shop-now-modal .back-btn {
+    background-color: var(--blue-fill);
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.shop-now-modal .shop-modal-heading {
+    color: #748A9D;
+}
+
+.shop-now-modal .shop-modal-select-box {
+    margin-top: 50px;
+}
+
+.shop-now-modal .shop-modal-select-box .shop-modal-price {
+    color: #748A9D;
+}
+
+.shop-now-modal .shop-modal-select-box select.shop-modal-custom-field {
+    background-position: calc(100% - 20px) calc(1em + 12px), 100% 0;
+    /* background-image: url(./../images/select-polygon.png); */
+    appearance: auto;
+    background-repeat: no-repeat;
+}
+
+.shop-now-modal .shop-modal-select-box .shop-modal-custom-field {
+    color: var(--light-fill-b);
+    padding: 15px;
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    background-color: #F0F4F8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: none;
+}
+
+.shop-now-modal .shop-modal-produt-details {
+    margin-top: 140px;
+}
+
+.shop-now-modal .shop-modal-produt-details .shop-heading-group {
+    margin-top: 45px;
+}
+
+.shop-now-modal .shop-modal-produt-details h2 {
+    color: var(--green-fill);
+}
+
+.shop-now-modal .shop-modal-produt-details p {
+    color: #748A9D;
+    margin-top: 20px;
+}
+
+.shop-now-modal .shop-modal-user-heading-box p {
+    color: #748A9D;
+}
+
+.shop-now-modal .shop-modal-small-img {
+    margin-top: 150px;
+}
+
+.shop-now-modal .shop-modal-small-img img {
+    width: 70px;
+}
+
+.shop-now-modal .shop-modal-review-box {
+    margin-top: 50px;
+}
+
+.shop-now-modal .shop-modal-review-box h2 {
+    color: var(--green-fill);
+}
+
+.shop-now-modal .shop-modal-review-box .review-heading .user-img {
+    width: 38px;
+}
+
+.shop-now-modal .shop-modal-review-box .review-text {
+    color: var(--grey-border);
+}
+
+.shop-now-modal .shop-modal-review-box .shop-modal-footer {
+
+    margin-top: 50px;
+}
+
+.shop-now-modal .shop-modal-review-box .shop-modal-footer a {
+    color: #000;
+    text-decoration: underline;
+}
+
+/************************************* shop now modal box Clarence Valley Food_Posts – 1 end here********************************/
+
+
+
+
+/************************************* new Post modal box Clarence Valley Food_Posts – 1 start here********************************/
+.new-post-modal .modal-content {
+    padding: 25px;
+}
+
+.new-post-modal .new-post-img-upload {
+    background-color: var(--blue-fill);
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/************************************* new Post modal box Clarence Valley Food_Posts – 1 end here********************************/
+
+
+
+
+
+/*************************************Shepparton Read More modal Box styling start here********************************/
+.shepparton-readMore-Modal .modal-body {
+    padding: 40px;
+    position: relative;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-closeModal-btn {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    width: 51px;
+    height: 51px;
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shepparton-readMore-Modal .modal-body .heading-img-box {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 77px;
+    height: 76px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-heading .post-shop-now-btn {
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body p {
+    color: var(--grey-border);
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body .shp-product-img {
+    width: 100%;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body .shp-textarea {
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body .shepparton-mark-btn .mark-icon {
+    border: none;
+    margin-right: 8px;
+    background-color: var(--green-fill-dark);
+    height: 27px;
+    width: 27px;
+    box-shadow: 0 1px 5px 0px var(--green-fill-dark);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body .shepparton-modal-review .shepparton-review-img {
+    width: 100%;
+}
+
+.shepparton-readMore-Modal .modal-body .shepparton-modal-body .shepparton-modal-review p {
+    color: #969696;
+}
+
+/*************************************Shepparton Read More modal Box styling end here********************************/
+
+
+
+/*************************************Single Product Shop NOW modal Box additional styling end here********************************/
+.myBid-modal .modal-content {
+    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.myBid-modal .single-product-shopNow-topbar a {
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+    font-weight: 500;
+    color: #A6BCD0;
+    text-decoration: none;
+}
+
+.myBid-modal .myBids-modal-img {
+    width: 70%;
+}
+
+.myBid-modal .single-product-shopNow-topbar .active {
+    color: #748A9D;
+}
+
+.myBid-modal .shopNow-modal-addtoCart-btn {
+    margin-top: 48px;
+}
+
+.myBid-modal .shopNow-modal-addtoCart-btn .btn {
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    width: 161px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+
+.myBid-modal .shopNow-modal-bid-btn .btn {
+    background-color: var(--blue-fill);
+    color: #fff;
+    width: 161px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+
+
+/*side bar request for bid in modal box start here */
+
+.requestBid-right-sidebar {
+    box-shadow: 0 0px 8px -2px var(--grey-border);
+    padding: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.requestBid-right-sidebar .myOrder-heading .myOrder-edit-btn {
+    color: var(--green-fill);
+}
+
+.requestBid-right-sidebar .myOrder-primary-info {
+    margin-top: 30px;
+}
+
+.requestBid-right-sidebar .myOrder-primary-info .myOrder-group {
+    margin-top: 25px;
+}
+
+.requestBid-right-sidebar .typeA-message .icons,
+.requestBid-right-sidebar .myOrder-primary-info .icons {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    background-color: rgb(44, 160, 98, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.requestBid-right-sidebar .typeA-message .text,
+.requestBid-right-sidebar .myOrder-primary-info .text {
+    margin-left: 20px;
+}
+
+.requestBid-right-sidebar .myOrder-primary-info .requestBid-modal-Input {
+    border: 1px solid var(--green-fill-dark);
+    width: 172px;
+    height: 33px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+hr.myOrder-hr {
+    border: 2px solid #707070;
+    margin: 40px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .produst-list-item {
+    margin-top: 20px;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-img {
+    width: 60px;
+    height: 60px;
+    background-color: #BABABA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-tittle {
+    margin-left: 16px;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-increment-btn {
+    padding: 0px 14px;
+    width: 75px;
+    height: 24.5px;
+    border: 1px solid var(--green-fill);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .increase-quantity-btn,
+.requestBid-right-sidebar .myOrder-productIn-cart .decrease-quantity-btn {
+    user-select: none;
+}
+
+.requestBid-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-weight {
+    color: #969696;
+}
+
+.requestBid-right-sidebar .myOrder-checkout-btn {
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 12px 0px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.requestBid-right-sidebar .remove-cart-item {
+    cursor: pointer;
+}
+
+/*side bar request for bid in modal box end here */
+
+
+.myBid-modal .productSubmit-show {
+    margin-top: 40px !important;
+    padding: 250px 130px;
+    box-shadow: 0 0px 8px -2px var(--grey-border);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.myBid-modal .productSubmit-show .productSubmit-textBox {
+    margin-bottom: 150px;
+
+}
+
+.myBid-modal .productSubmit-show .productSubmit-btnBox .btn {
+    margin-top: 10px;
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    width: 195px;
+    height: 55px;
+    font-family: var(--font-family-poppins);
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/*************************************Single Product Shop NOW modal Box additional styling end here********************************/
+
+
+
+/************************************* Media Quries start here *************************************/
+
+
+@media(max-width:768px) {
+    .shepparton-profile .supplier-text-sec .supplier-img{
+        width: 100px;
+        height: 100px;
+    }
+    .shepparton-profile .supplier-text-sec .supplier-heading h1{
+        font-size: 30px;
+    }
+    /* post title heading */
+    .shepparton-posts .shepparton-posts-container .post-title-img{
+        width: 55px;
+        height: 55px;
+    }
+    .shepparton-posts .shepparton-posts-container .post-title-text h2{
+        font-size: 22px;
+    }
+    .shepparton-posts .shepparton-posts-container .post-shop-now-btn{
+        width: 130px;
+        height: 40px;
+    }
+    .shepparton-posts-container .shepparton-posts-body p{
+        font-size: 17px;
+    }
+    /* end */
+    .myBid-modal .productSubmit-show {
+        padding: 50px 20px;
+    }
+
+    .myBid-modal .productSubmit-show .productSubmit-textBox {
+        margin-bottom: 50px;
+    }
+
+    .myBid-modal .productSubmit-show .productSubmit-textBox p {
+        font-size: 18px;
+    }
+
+    .myBid-modal .productSubmit-show .productSubmit-btnBox .btn {
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .requestBid-right-sidebar {
+        padding: 20px;
+    }
+
+    .requestBid-right-sidebar .myOrder-checkout-btn {
+        padding: 8px 0px;
+        font-size: 20px;
+    }
+    .myBid-modal .modal-content{
+        padding-left: 0px;
+    }
+    .shop-now-modal .shop-modal-review-box .review-text{
+        font-size: 15px;
+    }
+    /* cross for read more modal */
+    .shepparton-readMore-Modal .modal-body .shepparton-closeModal-btn{
+        top: -20px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+    }
+    .shepparton-readMore-Modal .modal-body .shepparton-closeModal-btn img{
+        width: 35px;
+    }
+}
+
+@media (min-width:990px) {
+    .shop-modal-heading {
+        margin-top: 140px;
+    }
+
+}
+@media (min-width:768px) AND (max-width:1200px)
+{
+    .shop-now-modal .shop-modal-review-box .review-text{
+        font-size: 15px;
+    }
+    .shop-now-modal .shop-modal-user-heading-box h2{
+        font-size: 16px;
+    }
+    .shop-now-modal .shop-modal-user-heading-box p{
+        font-size: 14px;
+    }
+}
+@media(min-width:990px) AND (max-width:1200px){
+    .requestBid-right-sidebar{
+        padding: 50px 10px;
+    }
+    .requestBid-right-sidebar .myOrder-heading h1{
+        font-size: 20px;
+    }
+    .requestBid-right-sidebar .myOrder-heading .myOrder-edit-btn{
+        font-size: 16px;
+    }
+    .requestBid-right-sidebar .typeA-message .text, .requestBid-right-sidebar .myOrder-primary-info .text p{
+        font-size: 17px;
+    }
+    .requestBid-right-sidebar .myOrder-checkout-btn{
+        padding: 6px 0px;
+        font-size: 18px;
+    }
+    .requestBid-right-sidebar .myOrder-checkout-btn {
+        padding: 8px 0px;
+        font-size: 20px;
+    }
+   
+}
+@media (min-width:990px) AND (max-width:1400px) {
+    .shepparton-profile .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shepparton-profile .icon-circle img {
+        width: 55%;
+    }
+    .shepparton-profile .supplier-text-sec .supplier-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shepparton-profile .supplier-text-sec .supplier-heading h1 {
+        font-size: 40px;
+    }
+    
+}
+
+
+
+/************************************* Media Quries end here *************************************/

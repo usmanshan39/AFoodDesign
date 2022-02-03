@@ -1,0 +1,42 @@
+#sidebar-wrapper{
+    background-color: var(--admin-dark-color);
+    color: #fff;
+}
+.sidebar-brand{
+    margin-bottom: 140px;
+}
+.sidebar-links-list{
+    margin-top: 115px;
+}
+.sidebar-links-list ul li{
+    padding-left: 15px;
+}
+.sidebar-links-list ul li a{
+    color: #fff;
+}
+.sidebar-links-list ul .active a{
+    color: var(--green-fill-dark);
+}
+.sidebar-links-list ul .active{
+    background-color: #F9F9F9;
+    padding:15px;
+    color: #000;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+}
+.sidebar-collaps-btn-inner, .sidebar-collaps-btn-outer .fa-times{
+    color: #fff;
+}
+
+.notify-bell .noti-text-1{
+    background-color: var(--admin-dark-color);
+}
+@media(min-width:990px) AND (max-width:1399px)
+{
+    .side-bar-inner-section .brand-logo {
+        width: 180px;
+    }
+}

@@ -1,0 +1,418 @@
+/* top four color section start here */
+
+.my-bird .my-bird-color-container {
+    margin: 35px 0px;
+}
+
+.my-bird .my-bird-color-container .my-bird-color {
+    min-width: 165px;
+}
+
+.my-bird .my-bird-color-container .my-bird-color .color-div {
+    width: 42px;
+    height: 39px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.my-bird .color-text {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.my-bird .green-light-color {
+    background-color: var(--my-bird-green);
+}
+
+.my-bird .red-light-color {
+    background-color: var(--my-bird-red);
+}
+
+.my-bird .yellow-shade-color {
+    background-color: var(--my-bird-yellow);
+}
+
+.my-bird .gray-color {
+    background-color: var(--my-bird-grey);
+}
+
+/* top four color section end here */
+
+
+
+/* my bird main card start here */
+
+.my-bird .my-bird-card-outer {
+    background-color: #fff;
+    margin-top: 35px;
+    padding: 20px;
+    box-shadow: 0 0px 3px 0px var(--grey-border);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.my-bird .my-bird-card-outer .my-bird-veg-inner-container {
+    margin-bottom: 55px;
+}
+
+.my-bird .card-top-brand-logo {
+    width: 67px;
+    height: 66px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0px var(--grey-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.my-bird .card-top-brand-logo img {
+    width: 100%;
+}
+
+.card-top-supplier-logo {
+    width: 45px;
+    height: 46px;
+    border: 1px solid var(--green-fill);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col {
+    margin-top: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .veg-img {
+    width: 100%;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .text-section {
+    color: #fff;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .text-section .veg-name {
+    font-size: 15px;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .text-section .veg-price {
+    font-size: 25px;
+}
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .veg-button {
+    padding: 10px 30px 18px 30px;
+}
+
+
+
+.my-bird .my-bird-card-outer .my-bird-vegitable-col .veg-button .price-btn {
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.veg-bottom-shere-icons {
+    position: absolute;
+    bottom: -55px;
+    padding: 10px;
+    width: 68px;
+    height: 67px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0px var(--grey-border);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    user-select: none;
+}
+
+.veg-bottom-shere-icons:hover {
+    background-color: var(--light-fill);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.veg-bottom-shere-icons .share-icon {
+    width: 100%;
+    min-height: none !important;
+    max-height: none !important;
+}
+
+.veg-accept-pay-btn {
+    margin-top: 10px;
+    padding: 15px 48px;
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.veg-accept-pay-btn:hover {
+    color: #fff;
+}
+
+/* my bird main card end here */
+
+/**************************************************** My bids 6 and My bids 10 styling start here *********************************************/
+
+.mb6-color-div {
+    margin-top: 8px;
+}
+
+.mb6-back-btn {
+    background-color: var(--blue-fill);
+    color: #fff;
+    padding: 0px 9px;
+    font-size: 14px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.mb6-back-btn:hover {
+    color: #fff;
+}
+
+.mb6-accept-btn {
+    display: block;
+    margin-top: 5px;
+    background-color: var(--blue-fill);
+    color: #fff;
+    padding: 4px 18px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+}
+
+.mb6-icon-div {
+    margin-right: 10px;
+    padding: 10px;
+    width: 45px;
+    height: 46px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0px var(--grey-border);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.mb6-green-icons .mb6-icon-div img {
+    width: 25px;
+}
+
+.mb6-green-icons .mb6-icon-div:hover {
+    background-color: var(--light-fill);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.mb6-green-icons img {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.mb5-inner-container {
+    margin-bottom: 0px !important;
+}
+
+.mb6-table {
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.mb6-table .cvfp8-table-ul {
+    list-style: none;
+    font-size: 12px;
+}
+
+.mb6-table .cvfp8-vie-btn {
+    background-color: var(--blue-fill);
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 9px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/**************************************************** My bids 6 and My bids 10 styling end here *********************************************/
+
+
+/************************************* Media Quries start here *************************************/
+
+/* for flex text on top of card start */
+@media(max-width:500px)
+{
+    .my-bird .my-bird-card-outer .my-bird-vegitable-col .veg-button{
+        padding: 10px 10px 18px 10px;
+    }
+}
+@media (max-width:768px)
+{
+    .my-bird .my-bird-card-outer .mb-card-header span{
+        font-size: 12px;
+    }
+    .my-bird .my-bird-card-outer .mb-card-header img{
+        width: 15px;
+    }
+    .my-bird .my-bird-card-outer .mb-card-header .mb6-accept-btn{
+        font-size: 10px;
+    }
+}
+@media (min-width:990px) AND (max-width:1200px)
+{
+    .my-bird .my-bird-card-outer .mb-card-header span{
+        font-size: 12px;
+    }
+    .my-bird .my-bird-card-outer .mb-card-header img{
+        width: 15px;
+    }
+    .my-bird .my-bird-card-outer .mb-card-header .mb6-accept-btn{
+        font-size: 10px;
+    }
+}
+
+/* for flex text on top of card end */
+
+
+/* for bottom 3 images div in card start*/
+@media(max-width:660px) {
+    .mb6-green-icons img {
+        width: 15px !important;
+    }
+    .mb6-green-icons .mb6-icon-div{
+        margin-right: 5px;
+        width: 33px;
+        height: 33px;
+    }
+}
+@media(min-width:768px) AND (max-width:989px)
+{
+    .mb6-green-icons img {
+        width: 12px !important;
+    }
+    .mb6-green-icons .mb6-icon-div{
+        margin-right: 5px;
+        width: 25px;
+        height: 24px;
+    }
+}
+@media (min-width:990px) AND (max-width:1289px)
+{
+    .mb6-green-icons img {
+        width: 10px !important;
+    }
+    .mb6-green-icons .mb6-icon-div{
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+}
+@media(min-width:1290px) AND (max-width:1450px) {
+    .mb6-green-icons img {
+        width: 15px !important;
+    }
+    .mb6-green-icons .mb6-icon-div{
+        width: 33px;
+        height: 33px;
+    }
+}
+/* for bottom 3 images div in card end*/
+
+@media(min-width:768px) AND (max-width:1260px) {
+    .my-bird .my-bird-card-outer .my-bird-vegitable-col .veg-button {
+        padding: 10px 8px 18px 8px;
+    }
+}
+@media(max-width:768px)
+{
+    .veg-accept-pay-btn{
+        padding: 10px 30px;
+        font-size: 14px !important;
+    }
+    .veg-bottom-shere-icons{
+        width: 51px;
+        height: 50px;
+        bottom: -35px;
+    }
+}
+@media (min-width:769px) AND (max-width:989px) {
+    .veg-accept-pay-btn{
+        padding: 8px 25px;
+        font-size: 12px !important;
+    }
+    .veg-bottom-shere-icons{
+        width: 51px;
+        height: 50px;
+        bottom: -35px;
+    }
+}
+@media (min-width:990px) AND (max-width:1199px)
+{
+    .veg-accept-pay-btn{
+        padding: 6px 20px;
+        font-size: 10px !important;
+    }
+    .veg-bottom-shere-icons{
+        width: 51px;
+        height: 50px;
+        bottom: -35px;
+    }
+}
+@media (min-width:1200px) AND (max-width:1600px)
+{
+    .veg-accept-pay-btn{
+        padding: 8px 22px;
+        font-size: 14px !important;
+    }
+    .veg-bottom-shere-icons{
+        width: 56px;
+        height: 55px;
+        bottom: -42px;
+    }
+}
+/************************************* Media Quries end here *************************************/

@@ -1,0 +1,483 @@
+
+
+.Greater-Shepparton .order-card-container  .order-card-outer .order-primary-info span,
+.color-light-fill-b{
+    color: var(--light-fill-b);
+}
+.Greater-Shepparton .order-card-container .order-card-outer{
+    background-color: #fff;
+    margin-top: 35px;
+    padding: 20px;
+    box-shadow: 0 1px 5px 0px var(--grey-border);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Greater-Shepparton .order-card-container .order-card-outer .order-card-brand-logo{
+    max-height: 43px;
+}
+.Greater-Shepparton .order-card-container .order-card-outer .order-card-items{
+    background-color: var(--light-fill);
+    margin-top: 6px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.Greater-Shepparton .order-card-container .order-card-outer .order-card-items .order-card-checkbox input{
+    margin: 10px 0px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--green-fill-dark);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.form-check-input:checked{
+    background-color: var(--green-fill-dark);
+    box-shadow: none;
+}
+.pay-outstanding-btn .btn{
+    margin-top: 10px;
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+@media (max-width:514px)
+{
+    .pay-outstanding-btn .btn{
+        font-size: 14px;
+    }
+    
+}
+@media (min-width:767px) AND (max-width:1750px){
+    .pay-outstanding-btn .btn{
+        font-size: 10px;
+    }
+}
+
+/* ***************************** */
+/* MyCart –GreaterShepparton–2 css start */
+/* side bar on page my cart 16 styling start here */
+
+.myOrder-right-sidebar {
+    box-shadow: 0 0px 8px -2px var(--grey-border);
+    padding: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #fff;
+}
+.greaterShepparton2-rightbar{
+    position: absolute;
+    right: 5px;
+}
+.myOrder-right-sidebar .myOrder-heading .myOrder-edit-btn {
+    color: var(--green-fill);
+}
+
+.myOrder-right-sidebar .myOrder-primary-info {
+    margin-top: 70px;
+}
+
+.myOrder-right-sidebar .myOrder-primary-info .myOrder-group {
+    margin-top: 25px;
+}
+
+.myOrder-right-sidebar .myOrder-primary-info .icons {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(44, 160, 98, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.myOrder-right-sidebar .myOrder-primary-info .text {
+    margin-left: 20px;
+}
+
+hr.myOrder-hr {
+    border: 2px solid #707070;
+    margin: 40px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.myOrder-right-sidebar .myOrder-productIn-cart .produst-list-item {
+    margin-top: 20px;
+}
+
+.myOrder-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-img {
+    width: 60px;
+    height: 60px;
+    background-color: #BABABA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.myOrder-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-tittle {
+    margin-left: 16px;
+}
+
+.myOrder-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-increment-btn {
+    padding: 0px 14px;
+    width: 75px;
+    height: 24.5px;
+    border: 1px solid var(--green-fill);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+.myOrder-right-sidebar .myOrder-productIn-cart .increase-quantity-btn,
+.myOrder-right-sidebar .myOrder-productIn-cart .decrease-quantity-btn{
+    user-select: none;
+}
+.myOrder-right-sidebar .myOrder-productIn-cart .produst-list-item .myOrder-cart-weight {
+    color: #969696;
+}
+
+.myOrder-right-sidebar .myOrder-checkout-btn {
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 17px 0px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.myOrder-right-sidebar .remove-cart-item{
+    cursor: pointer;
+}
+/* side bar on page my cart 16 styling end here */
+/* right sidebar link for checkout */
+.myOrder-right-sidebar .myOrder-checkout-btn a{
+    text-decoration: none;
+    color: white;
+}
+/* MyCart –GreaterShepparton–2 css ends */
+
+/* MyCart –GreaterShepparton–3 css starts */
+.track-order-modal .modal-header{
+    border-bottom: none;
+}
+.track-order-modal .modal-header .modal-title a{
+    text-decoration: none;
+}
+.track-order-modal .modal-body .order-info{
+    margin: 100px 80px;
+}
+.track-order-modal .modal-body .order-info img{
+    max-width: 45px;
+}
+.track-order-modal .modal-body .order-tracking{
+    margin: 100px 80px;
+}
+@media (max-width:1199px) {
+    .track-order-modal .modal-body .order-info{
+        margin: 50px 10px;
+    }
+    .track-order-modal .modal-body .order-tracking{
+        margin: 50px 10px;
+    }   
+}
+.order-tracking .track .point div{
+    width: 27.83px;
+    height: 27.83px;
+    background-color: var(--light-fill-b);
+    border-radius: 50%;
+}
+.order-tracking .track .point .active{
+    background-color: var(--green-fill-dark);
+}
+.order-tracking .track .point{
+    position: relative;
+}
+.order-tracking .track .point p{
+    margin-top: 10px;
+    margin-left: -20px;
+    font-weight: 500;
+}
+.order-tracking .track .point span{
+    margin-left: -20px;
+    font-size: 14px;
+}
+.order-tracking .track .point p:nth-child(1){
+    font-weight: 800 !important;
+}
+.order-tracking .track .hrow{
+    width: 200px;
+    color: var(--light-fill-b);
+    z-index: 999;
+    position: absolute;
+}
+.order-tracking .track .hr-1{
+    top: 57%;
+    left: 18%;
+}
+.order-tracking .track .hr-2{
+    top: 57%;
+    left: 37%;
+}
+.order-tracking .track .hr-3{
+    top: 57%;
+    left: 57%;
+}
+@media (max-width:1199px) {
+    .order-tracking .track .point p{
+        margin-top: 5px;
+        margin-left: 0;
+        font-weight: 500;
+    }
+    .order-tracking .track .point span{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .track-order-modal .modal-body .order-info{
+        margin: 50px 10px;
+    }
+    .track-order-modal .modal-body .order-tracking{
+        margin: 50px 10px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 150px;
+    }
+    .order-tracking .track .hr-1{
+        top: 53.5%;
+        left: 14.5%;
+    }
+    .order-tracking .track .hr-2{
+        top: 53.5%;
+        left: 37%;
+    }
+    .order-tracking .track .hr-3{
+        top: 53.5%;
+        left: 59%;
+    }
+}
+@media (max-width:991px) {
+    .track-order-modal .modal-body .order-info{
+        margin: 25px 10px;
+    }
+    .track-order-modal .modal-body .order-info .info-right{
+        margin-right: 25px !important;
+    }
+    .track-order-modal .modal-body .order-tracking{
+        margin: 25px 10px;
+    }
+    .track-order-modal .modal-body .order-tracking .tracking{
+        margin-top: 30px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 80px;
+    }
+    .order-tracking .track .hr-1{
+        top: 54.5%;
+        left: 18.5%;
+    }
+    .order-tracking .track .hr-2{
+        top: 54.5%;
+        left: 40.5%;
+    }
+    .order-tracking .track .hr-3{
+        top: 54.5%;
+        left: 62%;
+    }
+}
+@media (max-width:767px) {
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 88px;
+    }
+    .order-tracking .track .point p{
+        font-size: 14px;
+    }
+    .order-tracking .track .hr-1{
+        top: 63.5%;
+        left: 11%;
+    }
+    .order-tracking .track .hr-2{
+        top: 63.5%;
+        left: 34.5%;
+    }
+    .order-tracking .track .hr-3{
+        top: 63.5%;
+        left: 58%;
+    }
+}
+@media (max-width:524px){
+    .order-tracking .track .point p{
+        font-size: 13px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 84px;
+    }
+    .order-tracking .track .hr-1{
+        top: 64%;
+        left: 11.5%;
+    }
+    .order-tracking .track .hr-2{
+        top: 64%;
+        left: 35%;
+    }
+    .order-tracking .track .hr-3{
+        top: 64%;
+        left: 58.5%;
+    }
+}
+@media (max-width:477px){
+    .order-tracking .track .hr-1,
+    .order-tracking .track .hr-2,
+    .order-tracking .track .hr-3{
+        top: 60.5%;
+    }
+}
+@media (max-width:452px){
+    .order-tracking .track .point div {
+        width: 19.83px;
+        height: 19.83px;
+    }
+    .order-tracking .track .point p{
+        font-size: 11px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 76px;
+    }
+    .order-tracking .track .hr-1{
+        top: 61%;
+        left: 11.5%;
+    }
+    .order-tracking .track .hr-2{
+        top: 61%;
+        left: 35%;
+    }
+    .order-tracking .track .hr-3{
+        top: 61%;
+        left: 58%;
+    }
+}
+@media (max-width:408px){
+    .order-tracking .track .point div {
+        width: 19.83px;
+        height: 19.83px;
+    }
+    .order-tracking .track .point p{
+        font-size: 10px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 68px;
+    }
+    .order-tracking .track .hr-1{
+        top: 62%;
+        left: 12%;
+    }
+    .order-tracking .track .hr-2{
+        top: 62%;
+        left: 35%;
+    }
+    .order-tracking .track .hr-3{
+        top: 62%;
+        left: 58%;
+    }
+}
+/* @media (max-width:384px){
+    .order-tracking .track .hr-1{
+        top: 62.5%;
+        left: 13%;
+    }
+    .order-tracking .track .hr-2{
+        top: 62.5%;
+        left: 35%;
+    }
+    .order-tracking .track .hr-3{
+        top: 62.5%;
+        left: 58%;
+    }
+} */
+@media (max-width:347px){
+    .order-tracking .track .point div {
+        width: 17px;
+        height: 17px;
+    }
+    .order-tracking .track .point p{
+        font-size: 8px;
+    }
+    .track-order-modal .modal-body .order-tracking .track .hrow{
+        width: 58px;
+    }
+    .order-tracking .track .hr-1{
+        top: 62%;
+        left: 14.5%;
+    }
+    .order-tracking .track .hr-2{
+        top: 62%;
+        left: 39%;
+    }
+    .order-tracking .track .hr-3{
+        top: 62%;
+        left: 59%;
+    }
+}
+/* MyCart –GreaterShepparton–3 css end */
+
+
+/************************************* Media Quries start here *************************************/
+
+
+
+@media (min-width:768px) AND (max-width:900px)
+{
+    .Greater-Shepparton .order-card-container .order-card-outer .card-side-sec span{
+        font-size: 12px;
+    }
+    .Greater-Shepparton .order-card-container .order-card-outer .card-side-sec img{
+        width: 16px;
+    }
+    .pay-outstanding-btn .btn{
+        font-size: 8px;
+    }
+}
+@media (min-width:1200px) AND (max-width:1350px)
+{
+    .Greater-Shepparton .order-card-container .order-card-outer .card-side-sec span{
+        font-size: 14px;
+    }
+    .Greater-Shepparton .order-card-container .order-card-outer .card-side-sec img{
+        width: 16px;
+    }
+    .pay-outstanding-btn .btn{
+        font-size: 8px;
+    }
+}
+
+
+/************************************* Media Quries end here *************************************/

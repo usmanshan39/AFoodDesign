@@ -1,0 +1,233 @@
+
+@media (min-width: 1400px){
+    .cus-container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1775px !important;
+    }
+}
+@media (max-width: 1399px){
+    .cus-container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1230px !important;
+}
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.grey-border{
+    box-shadow: 0 3px 6px 0px  var(--grey-border) !important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 80px;
+}
+.create-account{
+    color: var(--green-fill) !important;
+}
+.create-account .dots{
+    padding: 52px 0px !important;
+}
+.create-account .dots ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--light-fill) !important;
+    display: inline-block;
+    margin: 0px 10px !important;
+    
+}
+.create-account .dots ul .active{
+    background-color: var(--green-fill) !important;
+}
+.create-account .dots ul .complete{
+    background-color: var(--green-fill-dark) !important;
+}
+.account-type{
+    color: var(--green-fill) !important;
+}
+.account-type .choose-type {
+    margin: 120px 0px;
+}
+.account-type .choose-type .items{
+    box-shadow: 0 3px 6px 0px  var(--grey-border) !important;
+    width: 298px;
+    height: 298px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0px 45px;
+}
+.account-type .choose-type .items:hover{
+    background-color: var(--light-fill);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+@media(max-width:500px)
+{
+    .account-type .choose-type .items{
+        width: 120px;
+        height: 120px;
+    }
+    .account-type .choose-type .items .img-a{
+        width: 40px;
+    }
+    .account-type .choose-type .items .img-b{
+        width: 80px;
+    }
+    .account-type .choose-type .items .img-c{
+        width: 50px;
+    }
+    .account-type .choose-type .items .img-d{
+        width: 50px;
+    }
+}
+@media(min-width:501px) AND (max-width:768px)
+{
+    .account-type .choose-type .items{
+        width: 200px;
+        height: 200px;
+    }
+    .account-type .choose-type .items .img-a{
+        width: 60px;
+    }
+    .account-type .choose-type .items .img-b{
+        width: 130px;
+    }
+    .account-type .choose-type .items .img-c{
+        width: 80px;
+    }
+    .account-type .choose-type .items .img-d{
+        width: 80px;
+    }
+}
+.account-type .choose-type h2{
+    margin-top: 20px;
+}
+
+
+
+/********************************** Create account 8 form section start here ******************************/
+.fill-essentials{
+    color: var(--green-fill) !important;
+    margin: 100px 0px;
+}
+.fill-essentials .btn-organization{
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+  background-color: var(--blue-fill);
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.fill-essentials .essentials-heading img{
+    width: 30px;
+}
+.fill-essentials .essentials-form{
+    margin-top: 60px;
+}
+.fill-essentials .essentials-form .input-group{
+    margin: 12px 0px;
+}
+.fill-essentials .essentials-form span,
+.fill-essentials .essentials-form input{
+    background-color: var(--light-fill) !important;
+    border: none !important;
+    color: var(--light-fill-b) !important;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    box-shadow: none;
+}
+.fill-essentials .essentials-form .essentials-btn{
+    margin-top: 190px;
+}
+.fill-essentials .essentials-form .essentials-btn .continue-btn{
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+.fill-essentials .essentials-form .essentials-btn .signin-btn{
+    color:var(--light-fill-b) !important;
+    margin-top: 20px;
+}
+/********************************** Create account 8 form section end here ******************************/
+
+
+
+/* 21 sep create-account-7 css */
+
+.outer-essentials{
+    position: relative;
+}
+.fill-essentials .essentials-form .input-group{
+    margin: 12px 0px;
+}
+.fill-essentials .essentials-form span,
+.fill-essentials .essentials-form input{
+    background-color: var(--light-fill) !important;
+    border: none !important;
+    color: var(--light-fill-b);
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    box-shadow: none;
+}
+.fill-essentials .essentials-form .essentials-btn9{
+    margin-top: 30px;
+}
+.fill-essentials .essentials-form .essentials-btn9 .continue-btn{
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+.outer-form-images{
+    position: absolute;
+    top: 38% ;
+    right: -130px;
+}
+
+.outer-form-images .image-upload-file input{
+    display: none;
+}
+
+.outer-form-images .image-upload-file img{
+    cursor: pointer;
+}
+
+
+/********************** 21 sep create-account-7 css end ******************/

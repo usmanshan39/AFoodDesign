@@ -1,0 +1,209 @@
+@media (min-width:990px) and (max-width:1850px)
+{
+    .cus-container{
+        padding-left: 40px;
+    }
+}
+@media (min-width: 1400px) {
+    .cus-container {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .cus-container {
+        max-width: 1230px;
+    }
+}
+
+
+
+/********************* products scrollbar stylings start *********************/
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #DBE2ED;
+    border-radius: 6px;
+    border: 3px solid transparent;
+}
+
+
+/********************* products scrollbar stylings end *********************/
+
+
+/********************* for checked input box *********************/
+
+.form-check-input:checked {
+    background-color: var(--green-fill-dark);
+    box-shadow: none;
+}
+
+
+/**************************************** modal box styling start here ****************************************/
+
+@media (min-width: 576px){
+    .cus-modal-xl {
+        max-width: 700px;
+    }
+}
+@media (min-width: 900px) {
+    .cus-modal-xl {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cus-modal-xl {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .cus-modal-xl {
+        max-width: 1480px;
+    }
+
+    .cus-modal-lg {
+        max-width: 1130px;
+    }
+}
+
+.modal-open #wrapper {
+    -webkit-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: blur(3px);
+
+}
+
+/* footer of modal box */
+.modal-box-cross-mark-icons .cross-icon,
+.modal-box-cross-mark-icons .mark-icon {
+    margin-right: 8px;
+    background-color: var(--blue-fill);
+    height: 27px;
+    width: 27px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+/****************************************** modal box styling end here ******************************************/
+
+
+/********************* for all custom inputs stylings start *********************/
+textarea {
+    resize: none;
+  }
+.cus-input-field-mt-5 {
+    margin-top: 5px !important;
+}
+
+.cus-input-field {
+    margin-top: 20px;
+    color: var(--light-fill-b);
+    padding: 20px;
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 18px;
+    background-color: #F0F4F8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: none;
+}
+
+.cus-form-check-label {
+    margin-top: 10px;
+    color: var(--light-fill-b);
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    box-shadow: none;
+}
+
+select.cus-input-field {
+    background-position:
+        calc(100% - 20px) calc(1em + 12px),
+        100% 0;
+    background-image: url("./../images/select-polygon.png");
+    background-repeat: no-repeat;
+}
+
+.cus-input-field:focus {
+    background-color: #F0F4F8;
+    color: var(--light-fill-b);
+}
+
+.input::placeholder {
+    background-color: #F0F4F8;
+}
+
+.input:-ms-input-placeholder {
+    background-color: #F0F4F8;
+}
+
+.input::-ms-input-placeholder {
+    background-color: #F0F4F8;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/********************* for all custom inputs stylings end *********************/
+
+/************************************* Media Quries start here *************************************/
+
+@media (min-width:768px) AND (max-width:1250px)
+{
+    .cvfp3-modal-form .form-check .cus-form-check-label{
+        font-size: 14px;
+    }
+    .cvfp3-modal-form .form-check .poppins-medium-14{
+        font-size: 10px;
+    }
+}
+
+/************************************* Media Quries end here *************************************/
+
+/* 
+@media(max-width:768px) {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-6,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        margin-top: 20px;
+    }
+} */

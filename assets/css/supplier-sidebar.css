@@ -1,0 +1,32 @@
+#sidebar-wrapper{
+    background-color: var(--blue-fill);
+    color: #fff;
+}
+.sidebar-brand{
+    margin-bottom: 140px;
+}
+.sidebar-links-list{
+    margin-top: 115px;
+}
+.sidebar-links-list ul li{
+    padding-left: 15px;
+}
+.sidebar-links-list ul li a{
+    color: #fff;
+}
+.sidebar-links-list ul .active a{
+    color: #000;
+}
+.sidebar-links-list ul .active{
+    background-color: #F9F9F9;
+    padding:15px;
+    color: #000;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+}
+.sidebar-collaps-btn-inner, .sidebar-collaps-btn-outer .fa-times{
+    color: #fff;
+}

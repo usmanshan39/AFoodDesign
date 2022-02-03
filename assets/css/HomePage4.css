@@ -1,0 +1,111 @@
+@media (max-width:1880px) {
+    .homepage-4 {
+        padding: 0 0 0 30px;
+    }   
+}
+.homepage-4,.homepage-navtop{
+    background-color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* left form user-info */
+.left-form{
+    padding: 32px;
+    /* margin-right: 40px; */
+    background-color: white;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0 0 8px rgba(44, 160, 98, 0.1);
+}
+.left-form .user-info .fill-essentials{
+    color: var(--green-fill) !important;
+    /* margin: 100px 0px; */
+}
+.left-form .user-info .fill-essentials a{
+    text-decoration: none;
+}
+.left-form .user-info .fill-essentials span .edtt{
+    margin-right: -10px;
+}
+@media (max-width:1200px) {
+    .left-form .user-info .fill-essentials a img{
+        width: auto;
+        height: 45px;
+    }
+}
+/* .left-form .user-info .fill-essentials .essentials-heading img{
+    width: 30px;
+} */
+.left-form .user-info .fill-essentials .essentials-form{
+    margin-top: 10px;
+}
+.left-form .user-info .fill-essentials .essentials-form .input-group{
+    margin: 12px 0px;
+}
+.left-form .user-info .fill-essentials .essentials-form span,
+.left-form .user-info .fill-essentials .essentials-form input{
+    background-color: var(--input-bg-home);
+    border: none !important;
+    color: var(--grey-fill) !important;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    box-shadow: none;
+}
+.left-form .user-info .fill-essentials .essentials-form input::placeholder{
+    color: var(--light-fill-b) !important;
+}
+/* .left-form .user-info .fill-essentials .essentials-form .essentials-btn{
+    margin-top: 190px;
+}
+.left-form .user-info .fill-essentials .essentials-form .essentials-btn .continue-btn{
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 20px 0px;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+.left-form .user-info .fill-essentials .essentials-form .essentials-btn .signin-btn{
+    color:var(--light-fill-b) !important;
+    margin-top: 20px;
+} */
+
+.left-form .user-info .fill-essentials .essentials-form .input-group{
+    margin: 12px 0px;
+}
+.left-form .user-info .fill-essentials .essentials-form span,
+.left-form .user-info .fill-essentials .essentials-form input{
+    background-color: var(--input-bg-home);
+    border: none !important;
+    color: var(--light-fill-b);
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 16px;
+    box-shadow: none;
+}

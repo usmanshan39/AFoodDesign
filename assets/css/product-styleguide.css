@@ -1,0 +1,223 @@
+:root { 
+    --grey-fill: #908888;
+    --grey-border:#707070;
+    --green-fill:#2CA062;
+    --green-fill-dark:#007645;
+    --light-fill:#E4FAEE;
+    --light-fill-b:#A6BCD0;
+    --blue-fill:#283476;
+    --sidebar-fill:#EBEBEB;
+    
+    /* homepage-4 input bg-color */
+    --input-bg-home:#F0F4F8;
+
+    --font-family-poppins: "Poppins", Helvetica;
+    --font-family-ubuntu: "Ubuntu", Helvetica;
+
+    --font-family-roboto: "Roboto", Helvetica;
+  }
+
+@font-face {
+    font-family: 'proximaNova';
+    src: url('../fonts/Proxima-Nova-Black.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/Proxima-Nova-Black.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Proxima-Nova-Black.otf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Proxima-Nova-Black.otf') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Proxima-Nova-Black.otf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Proxima-Nova-Black.otf') format('svg'); /* Legacy iOS */
+  }
+  
+ 
+  /********************************************************* regular ************************************************/
+
+  .poppins-regular{
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+}
+.poppins-regular-14{
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+  }
+  .poppins-regular-20{
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 20px;
+  }
+  .poppins-regular-28{
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 28px;
+  }
+  
+.poppins-regular-35{
+    font-weight: 400;
+    font-family: var(--font-family-poppins);
+    font-size: 35px;
+  }
+
+  @media (max-width:500px)
+  {
+    .poppins-regular-35{
+      font-size: 25px;
+    }
+  }
+  /************************************************ semi-bold *****************************************************/
+
+
+  .poppins-semibold{
+    font-weight: 600;
+    font-family: var(--font-family-poppins);
+}
+.poppins-semibold-14{
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+.poppins-semibold-24{
+    font-weight: 600;
+    font-family: var(--font-family-poppins);
+    font-size: 24px;
+  }
+
+  /******************************************** medium ********************************************************/
+  .poppins-medium{
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+}
+.poppins-medium-10{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+}
+.poppins-medium-16{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+}
+.poppins-medium-20{
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 20px;
+  }
+.poppins-medium-35{
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    font-size: 35px;
+  }
+
+  /****************************************************** bold ****************************************/
+  .poppins-bold{
+    font-weight: 700;
+    font-family: var(--font-family-poppins);
+}
+.poppins-bold-14-btn{
+    font-weight: 700;
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+  }
+  .poppins-bold-18{
+    font-weight: 700;
+    font-family: var(--font-family-poppins);
+    font-size: 18px;
+  }
+.poppins-bold-35{
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+}
+
+.poppins-bold-40{
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+}
+
+/* region cards font */
+.proxima-bold-30{
+  font-family: proximaNova;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.roboto-meduim-20{
+  font-family: var(--font-family-roboto);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Homepage - cards title font */
+.poppins-medium-10{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+}
+/* Homepage Categories font */
+.poppins-medium-24{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 24px;
+}
+
+
+
+/* Homepage - 2 poppins meduim */
+.poppins-medium-18{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+}
+.poppins-medium-14{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+.poppins-medium-9{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 9px;
+}
+.poppins-medium-6{
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 6px;
+}
+
+/* datatable heading font  */
+.proxima-bold-20{
+  font-family: proximaNova;
+  font-size: 20px;
+  font-weight: 700;
+}
+.proxima-bold-16{
+  font-family: proximaNova;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* product datatable text */
+.roboto-meduim-10{
+  font-family: var(--font-family-roboto);
+  font-size: 10px;
+  font-weight: 500;
+}
+/* supplier profile name font */
+.roboto-meduim-50{
+  font-family: var(--font-family-roboto);
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/* add slide button text */
+.roboto-meduim-16{
+  font-family: var(--font-family-roboto);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* 11 oct */
+.roboto-regular-16 {
+  font-family: var(--font-family-roboto);
+  font-weight: 400 !important;
+  font-size: 16px;
+}

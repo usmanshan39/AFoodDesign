@@ -1,0 +1,393 @@
+:root {
+  --grey-fill: #908888;
+  --grey-border: #707070;
+  --green-fill: #2CA062;
+  --green-fill-dark: #007645;
+  --light-fill: #E4FAEE;
+  --light-fill-b: #A6BCD0;
+  --blue-fill: #283476;
+  --sidebar-fill: #EBEBEB;
+  /* my birds page colors */
+  --my-bird-green: #B2FAD3;
+  --my-bird-red: #FFADBA;
+  --my-bird-grey: #D1D1D1;
+  --my-bird-yellow: #BEAE39;
+  --admin-dark-color:#762831;
+
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-font-oswald: 'Oswald';
+}
+
+/********************************************************* light start ******************************************/
+.poppins-light {
+  font-weight: 300;
+  font-family: var(--font-family-poppins);
+}
+
+.poppins-light-15 {
+  font-weight: 300;
+  font-family: var(--font-family-poppins);
+  font-size: 15px;
+}
+
+
+/********************************************************* light end ********************************************/
+
+
+
+/********************************************************* regular ************************************************/
+
+.poppins-regular {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+}
+
+.poppins-regular-10 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+}
+
+.poppins-regular-14 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.poppins-regular-16 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+}
+
+.poppins-regular-18 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+}
+
+.poppins-regular-20 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 20px;
+}
+
+.poppins-regular-21 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 21px;
+}
+
+.poppins-regular-22 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 22px;
+}
+
+.poppins-regular-28 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 28px;
+}
+
+.poppins-regular-35 {
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+}
+
+@media (max-width:500px) {
+  .poppins-regular-35 {
+    font-size: 25px;
+  }
+}
+
+/************************************************ semi-bold *****************************************************/
+
+
+.poppins-semibold {
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+}
+
+.poppins-semibold-14 {
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.poppins-semibold-19 {
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 19px;
+}
+
+.poppins-semibold-24 {
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 24px;
+}
+
+.poppins-semibold-28 {
+  font-weight: 600;
+  font-family: var(--font-family-poppins);
+  font-size: 28px;
+}
+
+/******************************************** medium ********************************************************/
+.poppins-medium {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+}
+
+.poppins-medium-9 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 9px;
+}
+
+.poppins-medium-12 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 12px;
+}
+
+.poppins-medium-10 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
+}
+
+.poppins-medium-14 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.poppins-medium-15 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 15px;
+}
+
+.poppins-medium-16 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+}
+
+.poppins-medium-17 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 17px;
+}
+
+.poppins-medium-18 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+}
+
+.poppins-medium-20 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 20px;
+}
+
+.poppins-medium-24 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 24px;
+}
+
+.poppins-medium-25 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 25px;
+}
+.poppins-medium-29 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 29px;
+}
+
+.poppins-medium-35 {
+  font-weight: 500;
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+}
+
+/****************************************************** bold ****************************************/
+.poppins-bold {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+}
+
+.poppins-bold-14 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.poppins-bold-14-btn {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.poppins-bold-16 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+}
+
+.poppins-bold-18 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+}
+
+.poppins-bold-20 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 20px;
+}
+.poppins-bold-22 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 22px;
+}
+
+.poppins-bold-28 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 28px;
+}
+
+.poppins-bold-30 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 30px;
+}
+
+.poppins-bold-35 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+}
+
+.poppins-bold-40 {
+  font-weight: 700;
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+}
+
+
+/* 9 sep 2021  by Shan*/
+
+
+/*************************************************** Roboto Font start here ********************************************/
+
+/************** roboto regular start here ****************/
+.roboto-regular-14 {
+  font-family: var(--font-family-roboto);
+  font-weight: 400 !important;
+  font-size: 14px;
+}
+
+/************** roboto regular start here ****************/
+
+
+
+/************** roboto medium start here ****************/
+.roboto-medium-10 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.roboto-medium-15 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.roboto-medium-16 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.roboto-medium-20 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.roboto-medium-23 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.roboto-medium-27 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.roboto-medium-50 {
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 50px;
+}
+
+
+/************** roboto medium end here ****************/
+
+
+
+
+/*************************************************** Roboto Font end here ********************************************/
+
+
+
+
+/*************************************************** Oswald Font start here ********************************************/
+
+
+/* Oswald regular start here */
+
+.oswald-regular-16 {
+  font-family: var(--font-font-oswald);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+/* Oswald regular end here */
+
+/* Oswald medium start here */
+
+.oswald-medium-15 {
+  font-family: var(--font-font-oswald);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* Oswald medium end here */
+
+
+
+/* Oswald bold start here */
+.oswald-medium-28 {
+  font-family: var(--font-font-oswald);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Oswald bold end here */
+
+
+/*************************************************** Oswald Font end here ********************************************/

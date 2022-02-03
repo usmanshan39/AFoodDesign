@@ -1,0 +1,56 @@
+.greater-shepparton-logo img{
+    max-width: 205px;
+}
+
+/* region-select-greater-shepparton-4  css*/
+
+@media (max-width:1880px) {
+    .greater-shepparton-top{
+        padding: 10px 0 0 36px;
+    }   
+    .region-datatable{
+        margin: 10px 36px 0 36px;
+    }
+    .product-datatable{
+        margin: 10px 36px 0 36px;
+    }
+}
+
+
+/* data table bottom links stylings start here */
+
+
+ .dataTables_length,
+ .dataTables_filter,
+ .dataTables_info,
+ .dataTables_paginate {
+    padding: 10px;
+}
+
+.page-item.active .page-link {
+    background-color: var(--green-fill-dark);
+    border-color: var(--green-fill-dark);
+    color: #fff !important;
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+}
+
+ #product-account-datatable_previous a {
+    color: var(--grey-border) !important;
+}
+
+ #product-account-datatable_previous,
+#purchases-table_next {
+    font-family: var(--font-family-poppins);
+    color: var(--grey-border);
+    font-size: 14px;
+}
+
+ .page-item:not(:first-child) .page-link {
+    color: var(--grey-border);
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+}
+
+
+/* data tables bottom links tylings end here */

@@ -1,0 +1,128 @@
+/************************************************** my bids modal box section start here*****************************************/
+
+.my-bids-modal .modal-content {
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 3px 20px 0px var(--grey-border);
+}
+
+.my-bids-modal .mybids-modalHeading .mybids-imgBox {
+    margin-right: 15px;
+    width: 106px;
+    height: 108px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0px var(--grey-border);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-bids-modal .mybids-modalBody {
+    margin: 100px 0px;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-btnBox {
+    margin-top: 70px;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-decbtn {
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-bodyimgs-box {
+    margin-top: 45px;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-imgBox {
+    width: 80px;
+    height: 79px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0px var(--grey-border);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-imgBox:hover,
+.my-bids-modal .mybids-modalHeading .mybids-imgBox:hover {
+    background-color: var(--light-fill);
+    cursor: pointer;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.my-bids-modal .mybids-modalBody .mybids-input-filed {
+    padding: 0px 15px;
+    border: 1px solid var(--green-fill-dark);
+    font-size: 17px;
+    color: #A6BCD0;
+    border-radius: 30px;
+    width: 150px;
+    height: 49px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.my-bids-modal .cross-icon,
+.my-bids-modal .mark-icon {
+    background-color: var(--blue-fill);
+    height: 27px;
+    width: 27px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.mybids-modalBody h2 {
+    line-height: 27px;
+}
+
+.my-bids-modal .max-width-660 {
+    max-width: 660px;
+}
+
+.my-bids-modal .mybids-modalBody .type-comment-textarea {
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid var(--blue-fill);
+    margin-top: 80px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/************************************************** my bids modal box section end here*****************************************/

@@ -1,0 +1,125 @@
+.admin-dashboard .admin-top-card{
+    background-color: #fff;
+    width: 210px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 15px;
+    box-shadow: 0 1px 3px 0px var(--grey-border);
+    text-decoration: none;
+    color: #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.admin-dashboard .admin-top-card-active{
+    background-color: #283476;
+    color: #fff;
+}
+
+/* top right add product button start */
+.cvfp3-add-product .blue-icon-div {
+    background-color: var(--admin-dark-color);
+    height: 41px;
+    width: 41px;
+    box-shadow: 0 1px 5px 0px var(--admin-dark-color);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.modal-box-cross-mark-icons .cross-icon, .modal-box-cross-mark-icons .mark-icon{
+    background-color: var(--admin-dark-color);
+    box-shadow: 0 1px 5px 0px var(--admin-dark-color);
+}
+/* top right add product button end */
+
+.admin-dashboard .admin-table-section {
+    margin-top: 50px;
+}
+.admin-dashboard .admin-table-section table{
+    background-color: #fff;
+}
+.admin-dashboard .admin-table-section table .order-bid-circle {
+    background-color: var(--green-fill);
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.admin-dashboard .admin-table-section table .cvfp8-vie-btn {
+    background-color: var(--admin-dark-color);
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 9px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.admin-dashboard .admin-table-section table .cvfp8-table-ul {
+    list-style: none;
+    font-size: 12px;
+}
+.admin-dashboard .admin-table-section table .font-10 {
+    font-size: 10px;
+}
+.admin-dashboard .admin-table-section table .draft-color{
+    color: #BEAE39;
+}
+.admin-dashboard .admin-table-section table .publish-color{
+    color: #007645;
+}
+
+/* data table bottom links stylings start here */
+
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+   padding: 10px;
+}
+
+.page-item.active .page-link {
+   background-color: var(--admin-dark-color);
+   border-color: var(--admin-dark-color);
+   color: #fff !important;
+   font-family: var(--font-family-poppins);
+   font-size: 14px;
+}
+
+#admin-data-table_previous a {
+   color: var(--grey-border) !important;
+}
+
+#admin-data-table_previous,
+#purchases-table_next {
+   font-family: var(--font-family-poppins);
+   color: var(--grey-border);
+   font-size: 14px;
+}
+
+.page-item:not(:first-child) .page-link {
+   color: var(--grey-border);
+   font-family: var(--font-family-poppins);
+   font-size: 14px;
+}
+
+
+/* data tables bottom links tylings end here */

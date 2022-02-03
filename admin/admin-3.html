@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Manageport" content="width=device-width, initial-scale=1.0">
+  <title>AFX </title>
+  <link rel='stylesheet' href='../assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
+  <link rel="stylesheet" href="../assets/css/globals.css">
+  <link rel="stylesheet" href="../assets/css/sidebar.css">
+  <link rel="stylesheet" href="../assets/css/admin-sidebar.css">
+  <link rel="stylesheet" href="../assets/css/admin-style.css">
+  <link rel="stylesheet" href="../assets/css/styleguide.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div id="wrapper">
+    <aside id="sidebar-wrapper">
+      <div class="side-bar-inner-section">
+          <a href="#" class="sidebar-collaps-btn-inner d-lg-none" id="sidebar-toggle-inner"><i class="fa fa-times"
+                  aria-hidden="true"></i></a>
+          <div class="text-center sidebar-brand">
+              <a href=""><img src="../assets/images/amin-logo.png" class="brand-logo"></a>
+          </div>
+          <!-- sidebar link list start here -->
+          <div class="sidebar-links-list">
+              <ul>
+                  <li  class="active">
+                      <a href="admin-1.html" class="d-flex align-items-center">
+                          <img src="../assets/images/green-home-path.png">
+                          <p class="poppins-bold-18 m-0">Dashboard</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="admin-6.html" class="d-flex align-items-center">
+                          <img src="../assets/images/white-blok-path.png">
+                          <p class="poppins-medium-17 m-0">Buyers</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="admin-4.html" class="d-flex align-items-center">
+                          <img src="../assets/images/white-blok-path.png">
+                          <p class="poppins-medium-17 m-0">Suppliers</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="admin-5.html" class="d-flex align-items-center">
+                          <img src="../assets/images/white-blok-path.png">
+                          <p class="poppins-medium-17 m-0">Regions</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="admin-7.html" class="d-flex align-items-center">
+                          <img src="../assets/images/white-blok-path.png">
+                          <p class="poppins-medium-17 m-0">Payouts</p>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <!-- sidebar link list end here -->
+      </div>
+  </aside>
+    <div id="content-wrapper">
+      <div class="top-navbar-list">
+        <nav class="navbar navbar-expand-sm">
+          <div class="d-flex align-items-center">
+            <a href="#" class="sidebar-collaps-btn-outer d-lg-none" id="sidebar-toggle">
+              <i class="fa fa-bars"></i></a>
+            <div class="input-group navbar-search">
+              <span class="input-group-text" id="password"><img src="../assets/images/search.png"></span>
+              <input type="text" class="form-control" placeholder="search" name="search" aria-label="search"
+                aria-describedby="search">
+            </div>
+          </div>
+          <div class="ms-auto">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link notify-bell" href="#">
+                  <img src="../assets/images/bell-green.png">
+                  <div class="noti-text-1"></div>
+                </a>
+              </li>
+              <li class="nav-link profile-drop">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle profile-info poppins-medium-20" type="button"
+                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="avatar">
+                      <img src="../assets/images/Mask Group 23.png" alt="user-image">
+                    </span>
+                    Grace
+                    <span class="drop-arrow">
+                      <img src="../assets/images/bottom.png" alt="">
+                    </span>
+                  </button>
+                  <ul class="dropdown-menu profile-dropdown poppins-medium-14" aria-labelledby="dropdownMenuButton1">
+                    <div class="row pt-4 py-4 px-3">
+                      <div class="col-md-4 pr-4 py-3">
+                        <li><a class="dropdown-item" href="HomePage4.html">My Account</a></li>
+                      </div>
+                      <div class="col-md-4 pr-4 py-3">
+                        <li class="order-li">
+                          <a class="dropdown-item" href="MyCart-19.html">My Order</a>
+                          <div class="order-text-1">1</div>
+                        </li>
+                      </div>
+                      <div class="col-md-4 pr-4 py-3">
+                        <li class="bids-li">
+                          <a class="dropdown-item" href="Mybids–5.html">My Bids</a>
+                          <div class="d-flex bids">
+                            <div class="bid-text-1">1</div>
+                            <div class="bid-text-2">2</div>
+                            <div class="bid-text-3">3</div>
+                          </div>
+                        </li>
+                      </div>
+                    </div>
+                    <div class="logout float-end">
+                      <a class="px-2 py-2" href="#">
+                        <img src="../assets/images/logout-2.png" alt="">
+                      </a>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section class="content admin-dashboard">
+        <div class="container cus-container">
+          <!-- admin top cards start here -->
+          <div class="row">
+            <div class="col-xl-10 col-lg-8 col-md-8">
+              <div class="d-flex align-items-center flex-wrap">
+                <a href="index.html" class="admin-top-card">
+                  <div class="">
+                    <div class="d-flex align-items-baseline">
+                      <img src="../assets/images/green-admin-top-card-1.png">
+                      <p class="poppins-bold-20 m-0 ps-2">Register</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="admin-3.html" class="admin-top-card admin-top-card-active">
+                  <div class="">
+                    <div class="d-flex align-items-baseline">
+                      <img src="../assets/images/white-admin-top-card-2.png">
+                      <p class="poppins-bold-20 m-0 ps-2">Products</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="admin-1.html" class="admin-top-card">
+                  <div class=""> 
+                    <div class="d-flex align-items-baseline">
+                      <img src="../assets/images/green-admin-top-card-3.png">
+                      <p class="poppins-bold-20 m-0 ps-2">Orders</p>
+                    </div>
+                  </div>
+                </a>
+                <a href="admin-2.html" class="admin-top-card">
+                  <div class="">
+                    <div class="d-flex align-items-baseline">
+                      <img src="../assets/images/green-admin-top-card-4.png">
+                      <p class="poppins-bold-20 m-0 ps-2">Bids</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4">
+                <div class="cvfp3-add-product text-center">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <p class="roboto-medium-16 m-0">Add a product</p>
+                        <div class="blue-icon-div ms-4 d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#addAProduct">
+                            <img src="../assets/images/Path-plus-white.png">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-end mt-4">
+                        <p class="roboto-medium-16 m-0">Import products<br>(.csv)</p>
+                        <div class="blue-icon-div ms-4 d-flex align-items-center justify-content-center">
+                            <img src="../assets/images/path-import-white.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- admin top cards end here -->
+          <div class="admin-table-section">
+            <div class="row">
+              <div class="col-md-12 col-lg-12 col-xl-11">
+                <p class="poppins-bold-18">ALL PRODUCTS</p>
+                <div class="table-responsive bg-white">
+                    <table class="table  table-striped" id="admin-data-table">
+                       <thead  class="poppins-bold-18">
+                          <th>Product ID</th>
+                          <th>Products</th>
+                          <th>Price</th>
+                          <th>Categories</th>
+                          <th>Tags</th>
+                          <th>Supplier</th>
+                          <th>Region</th>
+                          <th>Status</th>
+                          <th>Action</th>
+                       </thead>
+                       <tbody>
+                          <tr>
+                             <td>#3214562</td>
+                             <td>Product A</td>
+                             <td>$200</td>
+                             <td>Category A</td>
+                             <td class="font-10">Tags 1, Tag 2</td>
+                             <td>Supplier Name A</td>
+                             <td>Region A</td>
+                             <td class="draft-color">Draft</td>
+                             <td><a href="#" class="btn cvfp8-vie-btn">Manage</a></td>
+                          </tr>
+                          <tr>
+                            <td>#3214562</td>
+                            <td>Product A</td>
+                            <td>$200</td>
+                            <td>Category A</td>
+                            <td class="font-10">Tags 1, Tag 2</td>
+                            <td>Supplier Name A</td>
+                            <td>Region A</td>
+                            <td class="publish-color">Published</td>
+                            <td><a href="#" class="btn cvfp8-vie-btn">Manage</a></td>
+                         </tr>
+                         <tr>
+                            <td>#3214562</td>
+                            <td>Product A</td>
+                            <td>$200</td>
+                            <td>Category A</td>
+                            <td class="font-10">Tags 1, Tag 2</td>
+                            <td>Supplier Name A</td>
+                            <td>Region A</td>
+                            <td class="draft-color">Draft</td>
+                            <td><a href="#" class="btn cvfp8-vie-btn">Manage</a></td>
+                         </tr>
+                         <tr>
+                           <td>#3214562</td>
+                           <td>Product A</td>
+                           <td>$200</td>
+                           <td>Category A</td>
+                           <td class="font-10">Tags 1, Tag 2</td>
+                           <td>Supplier Name A</td>
+                           <td>Region A</td>
+                           <td class="publish-color">Published</td>
+                           <td><a href="#" class="btn cvfp8-vie-btn">Manage</a></td>
+                        </tr>
+                       </tbody>
+                    </table>
+                 </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+<!-- The Modal -->
+<div class="modal fade cvfp3-modal" id="addAProduct">
+    <div class="modal-dialog modal-xl cus-modal-xl ">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p class="poppins-medium-20 m-0">Add/Edit Product</p>
+                <div class="cvfp3-modal-form">
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <input type="text" name="product-name" class="form-control cus-input-field"
+                                        placeholder="Product Name">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row gx-2">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="sku-afx" class="form-control cus-input-field"
+                                                placeholder="SKU(AFX)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="stock-afx" class="form-control cus-input-field"
+                                                placeholder="Stock(AFX)">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-2">
+                            <div class="col-md-5">
+                                <div class="form-group position-relative">
+                                    <textarea class="form-control cus-input-field" rows="9" id=""
+                                        placeholder="Description"></textarea>
+                                    <p class="poppins-medium-11 cvfp3-placeholder-length">Max 250 words</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row gx-2">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-control cus-input-field cus-input-field-mt-5"
+                                                id="sel1">
+                                                <option selected>SKU Variation by</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name=""
+                                                class="form-control cus-input-field cus-input-field-mt-5"
+                                                placeholder="SKU(External/Synced)">
+                                        </div>
+                                        <div class="form-check mt-5">
+                                            <label
+                                                class="form-check-label cus-form-check-label cus-input-field-mt-5">
+                                                <input type="checkbox" class="form-check-input" value="">Gluten Free
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label
+                                                class="form-check-label cus-form-check-label cus-input-field-mt-5">
+                                                <input type="checkbox" class="form-check-input " value="">Lactose
+                                                free
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name=""
+                                                class="form-control cus-input-field cus-input-field-mt-5"
+                                                placeholder="Stock(External/Synced)">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name=""
+                                                class="form-control cus-input-field cus-input-field-mt-5"
+                                                placeholder="Barcode">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name=""
+                                                class="form-control cus-input-field cus-input-field-mt-5"
+                                                placeholder="Manufacturing Date">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name=""
+                                                class="form-control cus-input-field cus-input-field-mt-5"
+                                                placeholder="Packaging Type">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-2">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <input type="text" name="" class="form-control cus-input-field"
+                                        placeholder="Price (AUD )">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control cus-input-field" rows="5" id=""
+                                        placeholder="Storage Instruction"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control cus-input-field" rows="5" id=""
+                                        placeholder="Preparation & Usage Instruction"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row gx-2">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-control cus-input-field" id="sel1">
+                                                <option selected>For which buyer type</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                            </select>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label class="form-check-label cus-form-check-label ">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category A
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category A
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category A
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category A
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label
+                                                        class="form-check-label cus-form-check-label cus-input-field-mt-5">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category B
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category B
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category B
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category B
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label class="form-check-label cus-form-check-label ">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category C
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category C
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category C
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category C
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label class="form-check-label cus-form-check-label ">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category D
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category D
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category D
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category D
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label class="form-check-label cus-form-check-label ">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category E
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category E
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category E
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category E
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <label class="form-check-label cus-form-check-label ">
+                                                        <input type="checkbox" class="form-check-input "
+                                                            value="">Category F
+                                                    </label>
+                                                </div>
+                                                <div class="ps-2">
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category F
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category F
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <label
+                                                            class="form-check-label cus-form-check-label poppins-medium-14">
+                                                            <input type="checkbox" class="form-check-input "
+                                                                value="">Sub Category F
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <textarea class="form-control cus-input-field" rows="8" id=""
+                                                placeholder="Tags (Seperate by comma)"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control cus-input-field" rows="8" id=""
+                                                placeholder="Countries of Origin (separate by comma)"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <div class="modal-box-cross-mark-icons d-flex align-items-center justify-content-end">
+                    <div class="cross-icon  d-flex align-items-center justify-content-center"
+                        data-bs-dismiss="modal">
+                        <img src="../assets/images/Path-cross-white.png">
+                    </div>
+                    <div class="mark-icon d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/path-click-white.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- modal box end -->
+  <script src="../assets/js/jquery.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="../assets/js/bootstrap.min.js"></script> -->
+  <script src='https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js'></script>
+    <script src='https://cdn.datatables.net/1.11.2/js/dataTables.bootstrap5.min.js'></script>
+  <script src="../assets/js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+        $('#admin-data-table').DataTable();
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,524 @@
+.shepparton-profile {
+    margin-top: 30px;
+}
+
+
+
+
+/************************************* top four icons start here *************************************/
+.shepparton-profile .icon-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .top-four-icons .active {
+    background-color: var(--light-fill);
+}
+
+@media (min-width:990px) AND (max-width:1400px) {
+    .shepparton-profile .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shepparton-profile .icon-circle img {
+        width: 55%;
+    }
+}
+
+/************************************* top four icons end here *************************************/
+
+
+/************************************* Supplier text after icons start here *************************************/
+.shepparton-profile .supplier-text-sec {
+    margin-top: 34px;
+}
+
+.shepparton-profile .supplier-text-sec .supplier-img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .supplier-text-sec .supplier-heading h1 {
+    padding-left: 22px;
+}
+
+@media (min-width:990px) AND (max-width:1400px) {
+    .shepparton-profile .supplier-text-sec .supplier-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/************************************* Supplier text after icons end here *************************************/
+
+
+
+
+
+/******************************** shepparton about section block start here *********************************/
+
+
+.shepparton-profile .about-section {
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 43px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 1px 5px -1px var(--grey-border);
+
+}
+
+.shepparton-profile .about-section .about-top-heading {
+    padding: 33px;
+}
+
+.shepparton-profile .about-details-text {
+    margin-left: 10px;
+    color: var(--grey-fill);
+}
+
+.shepparton-profile .about-list .about-list-heading {
+    padding-left: 17px;
+}
+
+.shepparton-profile .about-list .about-list-heading h3 {
+    margin: 0px !important;
+}
+
+.shepparton-profile .start-list {
+    margin-top: 25px;
+}
+
+/********************************** shepparton about section block end here *********************************/
+
+
+
+/********************************** shepparton latest-news section block start here *********************************/
+
+
+.shepparton-profile .latest-news-section {
+    padding: 10px;
+    margin-top: 43px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 1px 5px -1px var(--grey-border);
+}
+
+.shepparton-profile .latest-news-section .latest-news-top-heading {
+    padding: 33px;
+}
+
+.shepparton-profile .latest-news-section .latest-news-text-details {
+    padding: 0px 0px 33px 33px;
+    color: var(--grey-fill);
+}
+
+/********************************** shepparton latest-news section block end here *********************************/
+
+
+
+/****************************** shepparton browse by category section block end here ***************************/
+
+.shepparton-profile .browse-category-section {
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 1px 5px -1px var(--grey-border);
+}
+
+.shepparton-profile .browse-category-section .browse-category-top-heading {
+    padding: 33px;
+    padding-bottom: 0px;
+}
+
+.shepparton-profile .browse-category-section .browse-category-img-cards {
+    padding: 20px 48px
+}
+
+.shepparton-profile .browse-category-section .browse-category-img-cards .card {
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 1px 7px -3px var(--grey-border);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.shepparton-profile .browse-category-section .browse-category-img-cards .card img {
+    width: 100%;
+}
+
+.shepparton-profile .browse-category-section .browse-category-img-cards .card h2 {
+    padding: 15px 0px;
+}
+
+
+
+/******************************* shepparton browse by category section block end here *************************/
+
+
+
+/******************************* shepparton latest posts section block start here *************************/
+
+.side-latest-posts .latest-posts-heading {
+    margin-bottom: 35px;
+}
+
+.side-latest-posts .latest-posts-cards .card {
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 1px 7px -3px var(--grey-border);
+}
+
+.side-latest-posts .latest-posts-cards .card .card-text {
+    color: var(--grey-fill);
+}
+
+.side-latest-posts .latest-posts-cards .card a {
+    color: #000;
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.side-latest-posts .owl-buttons-section {
+    margin-top: 27px;
+}
+
+.side-latest-posts .sheppartonCarousalPreviousBtn {
+    margin-right: 10px;
+}
+
+.side-latest-posts .sheppartonCarousalPreviousBtn i,
+.side-latest-posts .sheppartonCarousalNextBtn i {
+    padding: 2px 8px;
+    border: 2px solid var(--grey-border);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+}
+
+.side-latest-posts .sheppartonCarousalPreviousBtn i:hover,
+.side-latest-posts .sheppartonCarousalNextBtn i:hover {
+    border-color: var(--green-fill-dark);
+    color: var(--green-fill-dark);
+}
+
+@media (min-width:990px) AND (max-width:1199px) {
+
+    .side-latest-posts .latest-posts-cards .card a {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width:1200px) AND (max-width:1400px) {
+    .side-latest-posts .latest-posts-cards .card a {
+        padding-top: 10px;
+    }
+}
+
+/******************************* shepparton latest posts section block end here *************************/
+
+/************************************* styling for Clarence-Valley-Food_Profile–1 start here *************************************/
+
+.shepparton-profile .edit-icon-circle {
+    background-color: var(--blue-fill);
+    height: 41px;
+    width: 41px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.font-star-yellow-color {
+    color: #FFAA00;
+}
+
+.font-star-gray-color {
+    color: #969696;
+}
+
+.latest-post-location img {
+    width: auto !important;
+}
+
+@media (min-width:768px) AND (max-width:989px) {
+    .shepparton-profile .edit-icon-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .shepparton-profile .edit-icon-circle img {
+        width: 20px;
+    }
+}
+
+@media (min-width:990px) AND (max-width:1199px) {
+    .shepparton-profile .edit-icon-circle {
+        width: 32px;
+        height: 32px;
+    }
+
+    .shepparton-profile .edit-icon-circle img {
+        width: 22px;
+    }
+}
+
+@media (min-width:1200px) AND (max-width:1400px) {
+    .shepparton-profile .edit-icon-circle {
+        width: 35px;
+        height: 35px;
+    }
+
+    .shepparton-profile .edit-icon-circle img {
+        width: 22px;
+    }
+}
+
+/************************************* styling for Clarence-Valley-Food_Profile–1 end here *************************************/
+
+
+/************************************* styling for Clarence-Valley-Food_Profile–2 start here *************************************/
+
+.shepparton-profile .latest-news-section .latest-news-text-details-cfp2 {
+    padding: 10px 40px 33px 0px;
+    color: var(--grey-fill);
+}
+
+.cfp2-cross-mark-icons {
+    margin-top: 60px;
+}
+
+.cfp2-cross-mark-icons .cross-icon,
+.cfp2-cross-mark-icons .mark-icon {
+    margin-right: 8px;
+    background-color: var(--blue-fill);
+    height: 27px;
+    width: 27px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.shepparton-profile .latest-news-section-cfp2 {
+    border: 1px solid var(--blue-fill);
+}
+
+/************************************* styling for Clarence-Valley-Food_Profile–2 end here *************************************/
+
+
+/************************************* Media Quries start here *************************************/
+
+@media(max-width:768px) {
+    /* top supplier heading section */
+    .shepparton-profile .supplier-text-sec .supplier-img{
+        width: 100px;
+        height: 100px;
+    }
+    .shepparton-profile .supplier-text-sec .supplier-heading h1{
+        font-size: 30px;
+    }
+    .shepparton-profile .browse-category-section .browse-category-img-cards .card {
+        margin-top: 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .side-latest-posts .latest-posts-cards .card {
+        margin-top: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .side-latest-posts .latest-posts-heading {
+        margin-top: 25px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-img-cards {
+        padding: 20px;
+    }
+
+    .shepparton-profile .about-section .about-details-icon img,
+    .shepparton-profile .about-section .about-list-icon img {
+        width: 30px;
+    }
+}
+
+@media (min-width:768px) AND (max-width:989px) {
+    .shepparton-profile .browse-category-section .browse-category-img-cards .card h2 {
+        font-size: 10px;
+        margin: 0;
+        ;
+        padding: 10px 0px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-img-cards {
+        padding: 10px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-top-heading {
+        padding: 10px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-text-details {
+        padding: 0px 0px 33px 10px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-top-heading {
+        padding: 10px;
+    }
+
+    .shepparton-profile .about-details-text p {
+        font-size: 15px;
+    }
+
+    .shepparton-profile .about-section .about-details-icon img,
+    .shepparton-profile .about-section .about-list-icon img {
+        width: 25px;
+    }
+}
+
+@media (min-width:990px) AND (max-width:1199px) {
+    .shepparton-profile .browse-category-section .browse-category-img-cards .card h2 {
+        font-size: 10px;
+        margin: 0;
+        ;
+        padding: 10px 0px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-img-cards {
+        padding: 10px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-top-heading {
+        padding: 10px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-text-details {
+        padding: 0px 0px 33px 10px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-top-heading {
+        padding: 10px;
+    }
+
+    .shepparton-profile .supplier-text-sec .supplier-heading h1 {
+        font-size: 40px;
+    }
+
+    .shepparton-profile .about-section .about-details-icon img,
+    .shepparton-profile .about-section .about-list-icon img {
+        width: 30px;
+    }
+    .shepparton-profile .about-details-text p {
+        font-size: 17px;
+    }
+
+    /* media quries for change the font size of  all heading about, latest News, browse by Category start */
+
+    .shepparton-profile .browse-category-section .browse-category-top-heading h2 {
+        font-size: 18px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-top-heading h2 {
+        font-size: 18px;
+    }
+
+    .shepparton-profile .about-section .about-top-heading h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1200px) AND (max-width:1400px) {
+    .shepparton-profile .latest-news-section .latest-news-top-heading {
+        padding: 15px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-text-details {
+        padding: 0px 0px 33px 15px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-top-heading {
+        padding: 15px;
+    }
+
+    .shepparton-profile .browse-category-section .browse-category-img-cards {
+        padding: 20px;
+    }
+
+    .shepparton-profile .supplier-text-sec .supplier-heading h1 {
+        font-size: 40px;
+    }
+
+    /* media quries for change the font size of  all heading about, latest News, browse by Category start */
+    .shepparton-profile .browse-category-section .browse-category-top-heading h2 {
+        font-size: 20px;
+    }
+
+    .shepparton-profile .latest-news-section .latest-news-top-heading h2 {
+        font-size: 20px;
+    }
+
+    .shepparton-profile .about-section .about-top-heading h2 {
+        font-size: 20px;
+    }
+}
+
+/************************************* Media Quries end here *************************************/

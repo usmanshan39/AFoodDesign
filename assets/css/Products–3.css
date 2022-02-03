@@ -1,0 +1,93 @@
+
+/* top title section start here */
+
+
+.product-three .product-three-title .title-body{
+    color: var(--grey-border);
+}
+.product-three .browse-suppliers{
+    margin: 20px 0px;
+    
+}
+
+/* top title section end here */
+
+
+/* suppliers container section start here */
+
+
+.product-three .product-suppliers-main-container .single-supplier-container{
+    width: 100%;
+    height: 275px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0px var(--grey-border);
+    margin-top: 27px;
+    position:relative;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.product-three .product-suppliers-main-container  .title-container{
+    position: absolute;
+    bottom: 20px;
+}
+/* #2CA062 */
+.product-three .product-suppliers-main-container .single-suppliers-text-container{
+    padding: 30px 10px;
+    box-shadow: 0 1px 7px 0px #2CA062;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.z-index-top{
+    z-index: 9999;
+}
+.product-three .product-suppliers-main-container .single-suppliers-text-container p{
+    line-height: 20px;
+}
+.product-three .product-suppliers-main-container .product-cards{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.product-three .product-suppliers-main-container .single-suppliers-text-container .single-suppliers-icons{
+    margin: 36px;
+}
+.product-three .product-suppliers-main-container .single-suppliers-text-container  .single-supplier-button .btn{
+    width: 70px;
+    height: 24px;
+    color: #fff;
+    background-color: var(--green-fill-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+/* suppliers container section end here  */
+
+@media(max-width:768px) {
+
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-6,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        margin-top: 20px;
+    }
+}

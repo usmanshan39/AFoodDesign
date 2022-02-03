@@ -1,0 +1,90 @@
+.cvfp3-table {
+    background-color: #fff;
+}
+
+.cvfp3-table thead {
+    font-size: 13px;
+}
+
+.cvfp3-table-img {
+    width: 60px;
+}
+
+.cvfp3-table-btn {
+    background-color: var(--blue-fill);
+    color: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.cvfp3-table-btn:hover {
+    color: #fff;
+}
+
+
+/* data table bottom links stylings start here */
+
+.cvfp3-table .dataTables_length,
+.cvfp3-table .dataTables_filter,
+.cvfp3-table .dataTables_info,
+.cvfp3-table .dataTables_paginate {
+    padding: 10px;
+}
+
+.page-item.active .page-link {
+    background-color: var(--green-fill-dark);
+    border-color: var(--green-fill-dark);
+    color: #fff !important;
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+}
+
+.cvfp3-table #cvfp3-table_previous a {
+    color: var(--grey-border) !important;
+}
+
+.cvfp3-table #cvfp3-table_previous,
+#purchases-table_next {
+    font-family: var(--font-family-poppins);
+    color: var(--grey-border);
+    font-size: 14px;
+}
+
+.cvfp3-table .page-item:not(:first-child) .page-link {
+    color: var(--grey-border);
+    font-family: var(--font-family-poppins);
+    font-size: 14px;
+}
+
+
+/* data tables bottom links tylings end here */
+
+.cvfp3-add-product .blue-icon-div {
+    background-color: var(--blue-fill);
+    height: 41px;
+    width: 41px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/* input styling start */
+.cvfp3-placeholder-length {
+    color: var(--light-fill-b);
+    position: absolute;
+    bottom: -10px;
+    right: 5px;
+}
+
+/* input styling end */
+
+

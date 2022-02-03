@@ -1,0 +1,256 @@
+.shepparton-profile {
+    margin-top: 30px;
+}
+
+/************************************* top four icons start here *************************************/
+.shepparton-profile .icon-circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+    margin-right: 20px;    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .top-four-icons .active {
+    background-color: var(--light-fill);
+}
+
+
+
+/************************************* top four icons end here *************************************/
+
+
+/************************************* Supplier text after icons start here *************************************/
+.shepparton-profile .supplier-text-sec {
+    margin-top: 34px;
+}
+
+.shepparton-profile .supplier-text-sec .supplier-img {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 2px 10px 0px var(--grey-border)
+}
+
+.shepparton-profile .supplier-text-sec .supplier-heading h1 {
+    padding-left: 22px;
+}
+
+
+/************************************* Supplier text after icons end here *************************************/
+
+
+/******************************* above stylings is copyed from Shepparton Profile**********************************/
+
+
+
+/******************************** Shepparton-Products page styling start here*************************************/
+.brwose-all-btn-section {
+    margin-left: 80px;
+}
+
+.brwose-all-btn-section .browse-all-btn {
+    background-color: var(--green-fill-dark);
+    color: #fff;
+    width: 190px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+}
+
+
+/* product container styling start here */
+.shepparton-products-container .shepparton-product-card {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 1px 3px 0px var(--grey-border)
+}
+
+.shepparton-products-container .shepparton-product-card .product-image img {
+    width: 100%;
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container {
+    padding: 30px 0px;
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .product-user-image-circle {
+    width: 41px;
+    height: 41px;
+    border: 1px solid var(--green-fill);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 1px 3px 0px var(--grey-border)
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .view-product-btn {
+    width: 135px;
+    height: 41px;
+    background-color: var(--green-fill);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .product-price {
+    padding-left: 15px;
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .product-text-details {
+    padding: 15px;
+    padding-right: 80px;
+    color: var(--grey-border);
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .product-text-details p {
+    line-height: 28px;
+}
+
+
+/* product container styling end here */
+
+
+/* right sidebar start here */
+.shepparton-products .right-sidebar {
+    margin-top: 40px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.shepparton-products .right-sidebar .card-text {
+    padding: 10px 0px;
+}
+
+/* right sidebar end here */
+
+
+
+/*********************************** Shepparton-Products page styling end here**********************************/
+
+
+/*********************************** Clarence Valley Food_Products – 1 page styling start here**********************************/
+.shepparton-profile .add-a-product p {
+    min-width: 120px;
+}
+
+.shepparton-profile .blue-icon-div,
+.shepparton-products .blue-icon-div,
+.cvfp-sidebar-icon-dev .blue-icon-div {
+    background-color: var(--blue-fill);
+    height: 41px;
+    width: 41px;
+    box-shadow: 0 1px 5px 0px var(--blue-fill);
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.shepparton-products-container .shepparton-product-card .product-body-container .view-product-cvfp-btn {
+    width: 135px;
+    height: 41px;
+    background-color: var(--blue-fill);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/*********************************** Clarence Valley Food_Products – 1 page styling end here**********************************/
+
+
+/************************************* Media Quries start here *************************************/
+
+@media (max-width: 768px) {
+    .shepparton-products .right-sidebar {
+        margin:10px 5px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+/* top big supplier image */
+.shepparton-profile .supplier-text-sec .supplier-img{
+    width: 100px;
+    height: 100px;
+}
+.shepparton-profile .supplier-text-sec .supplier-heading h1{
+    font-size: 30px;
+}
+}
+
+@media (min-width:990px) AND (max-width:1400px) {
+    .shepparton-profile .supplier-text-sec .supplier-img {
+        width: 100px;
+        height: 100px;
+    }
+    .shepparton-profile .supplier-text-sec .supplier-heading h1{
+        font-size: 40px;
+    }
+    /* browse all button */
+    .brwose-all-btn-section .browse-all-btn{
+        width: 170px;
+        height: 50px;
+    }
+    .shepparton-profile .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .shepparton-profile .icon-circle img {
+        width: 55%;
+    }
+
+    .shepparton-products .right-sidebar .card-text {
+        font-size: 10px;
+        margin: 0;
+        padding: 10px 0px;
+    }
+}
+
+
+
+/************************************* Media Quries end here *************************************/
